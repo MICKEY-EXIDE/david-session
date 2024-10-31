@@ -59,21 +59,17 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃QUEEN_ANITA_V2 SESSION IS 
-┃SUCCESSFULLY
-┃CONNECTED ✅🔥
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DAVID CYRIL 𖥘
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/deecee_x 👈
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 David Cyril*
-_____________________________________
+⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
+🧚‍♂️.MICKEY-MD-V1 SESSION IS SUCCESSFULLY CONNECTED 
+⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
+
+🧚‍♂️.Creature = MICKEY-EXIDE
+
+🧚‍♂️.Contact = 94763559656
+
+🧚‍♂️.Channel = https://whatsapp.com/channel/0029VapkGxaFCCoRohm0Qy0Q
+▬▬▬▬▬▬▬▬▬▬▬▬▬
+🚀𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 - : © 𝗠𝗥 𝗖𝗬𝗕𝗘𝗥 𝗠𝗜𝗖𝗞𝗘𝗬 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟🌟
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
